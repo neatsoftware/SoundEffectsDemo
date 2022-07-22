@@ -11,6 +11,8 @@
 		BB11C179288AE8DA00323EC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB11C178288AE8DA00323EC4 /* ContentView.swift */; };
 		BB11C17B288AE8DB00323EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB11C17A288AE8DB00323EC4 /* Assets.xcassets */; };
 		BB11C17E288AE8DB00323EC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB11C17D288AE8DB00323EC4 /* Preview Assets.xcassets */; };
+		BB11C186288AE8F700323EC4 /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB11C185288AE8F700323EC4 /* SoundEffect.swift */; };
+		BB11C188288AEBF800323EC4 /* SoundEffectPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB11C187288AEBF800323EC4 /* SoundEffectPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BB11C17A288AE8DB00323EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB11C17D288AE8DB00323EC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB11C17F288AE8DB00323EC4 /* SoundEffectsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoundEffectsDemo.entitlements; sourceTree = "<group>"; };
+		BB11C185288AE8F700323EC4 /* SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		BB11C187288AEBF800323EC4 /* SoundEffectPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffectPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				BB11C176288AE8DA00323EC4 /* SoundEffectsDemoApp.swift */,
 				BB11C178288AE8DA00323EC4 /* ContentView.swift */,
+				BB11C187288AEBF800323EC4 /* SoundEffectPicker.swift */,
+				BB11C185288AE8F700323EC4 /* SoundEffect.swift */,
 				BB11C17A288AE8DB00323EC4 /* Assets.xcassets */,
 				BB11C17F288AE8DB00323EC4 /* SoundEffectsDemo.entitlements */,
 				BB11C17C288AE8DB00323EC4 /* Preview Content */,
@@ -141,6 +147,8 @@
 			files = (
 				BB11C179288AE8DA00323EC4 /* ContentView.swift in Sources */,
 				BB11C177288AE8DA00323EC4 /* SoundEffectsDemoApp.swift in Sources */,
+				BB11C188288AEBF800323EC4 /* SoundEffectPicker.swift in Sources */,
+				BB11C186288AE8F700323EC4 /* SoundEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

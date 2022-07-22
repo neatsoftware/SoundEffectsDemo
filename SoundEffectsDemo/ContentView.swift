@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    @State var soundEffect: SoundEffect?
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        VStack {
+            Text("Sound Effect Picker").font(.title)
+            SoundEffectPicker(selection: $soundEffect)
+        }.padding().frame(width: 300, height: 200, alignment: .center)
     }
 }
